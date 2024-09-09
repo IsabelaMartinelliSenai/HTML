@@ -9,103 +9,106 @@
     <h1>Cadastro Aluno</h1>
 
     <form action="#" method="get">
-      <label for="name">Nome:</label>
-      <input type="text" name="nome" id="nome" required />
-
-      <br />
-      <br />
-
-      <label for="idade">Idade:</label>
-      <input type="number" name="idade" id="idade" required />
-
-      <br />
-      <br />
-
-      <label for="Arquivo">Enviar arquivo:</label>
-      <input type="file" name="arquivo" id="arquivo" required />
-
-      <br />
-      <br />
-
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email" required />
-
-      <br />
-      <br />
-
-      <label for="password">Senha:</label>
-      <input type="password" name="password" id="password" required />
-
-      <br />
-      <br />
-
-      <label for="aniversario">Data de Aniversário</label>
-      <input type="date" name="aniversario" id="aniversario" required />
-
-      <br />
-      <br />
-
-      <label for="phone">Telefone:</label>
-      <input
-        type="tel"
-        name="phone"
-        id="phone"
-        minlength="11"
-        maxlength="15"
-        placeholder="(XX) XXXXX-XXXX"
-        required
-      />
-
-      <br />
-      <br />
-
-      <label for="genero">Gênero:</label>
-      <input
-        type="radio"
-        name="genero"
-        id="feminino"
-        value="feminino"
-        required
-      />
-      <label for="feminino">Feminino</label>
-
-      <input
-        type="radio"
-        name="genero"
-        id="masculino"
-        value="masculino"
-        required
-      />
-      <label for="masculino">Masculino</label>
-
-      <br />
-      <br />
-
-      <label for="estado">Estado:</label>
-      <select name="estado" id="estado" required>
-        <option value="none">Selecione...</option>
-        <option value="Sao_Paulo">São Paulo</option>
-        <option value="Rio_de_Janeiro">Rio de Janeiro</option>
-        <option value="Minas_Gerais">Minas Gerais</option>
-        <option value="Parana">Paraná</option>
-      </select>
-
-      <br />
-      <br />
-
-      <label for="mensagem">Mensagem:</label>
-      <textarea
-        name="mensagem"
-        id="mensagem"
-        cols="50"
-        rows="5"
-        required
-      ></textarea>
-
-      <br />
-      <br />
-
-      <input type="submit" value="Enviar" />
-    </form>
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label for="name">Nome:</label>
+            <input type="text" name="nome" id="nome" required />
+      
+            <br />
+            <br />
+      
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" id="idade" required />
+      
+            <br />
+            <br />
+      
+            <label for="Arquivo">Enviar arquivo:</label>
+            <input type="file" name="arquivo" id="arquivo" required />
+      
+            <br />
+            <br />
+      
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required />
+      
+            <br />
+            <br />
+      
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password" required />
+      
+            <br />
+            <br />
+      
+            <label for="aniversario">Data de Aniversário</label>
+            <input type="date" name="aniversario" id="aniversario" required />
+      
+            <br />
+            <br />
+      
+            <label for="phone">Telefone:</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              minlength="11"
+              maxlength="15"
+              placeholder="(XX) XXXXX-XXXX"
+              required
+            />
+      
+            <br />
+            <br />
+      
+            <label for="genero">Gênero:</label>
+            <input
+              type="radio"
+              name="genero"
+              id="feminino"
+              value="feminino"
+              required
+            />
+            <label for="feminino">Feminino</label>
+      
+            <input
+              type="radio"
+              name="genero"
+              id="masculino"
+              value="masculino"
+              required
+            />
+            <label for="masculino">Masculino</label>
+      
+            <br />
+            <br />
+      
+            <label for="estado">Estado:</label>
+            <select name="estado" id="estado" required>
+              <option value="none">Selecione...</option>
+              <option value="Sao_Paulo">São Paulo</option>
+              <option value="Rio_de_Janeiro">Rio de Janeiro</option>
+              <option value="Minas_Gerais">Minas Gerais</option>
+              <option value="Parana">Paraná</option>
+            </select>
+      
+            <br />
+            <br />
+      
+            <label for="mensagem">Mensagem:</label>
+            <textarea
+              name="mensagem"
+              id="mensagem"
+              cols="50"
+              rows="5"
+              required
+            ></textarea>
+      
+            <br />
+            <br />
+      
+            <input type="submit" value="Enviar" />
+          </form>
+        </fieldset>
   </body>
 </html>
